@@ -1,0 +1,51 @@
+.feedback-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column; /* вертикально */
+  gap: 20px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column; /* підпис зверху, поле знизу */
+  font-weight: 500;
+  color: #333333;
+  font-size: 14px;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  margin-top: 8px;
+  padding: 10px 12px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 4px rgba(74,144,226,0.5);
+}
+
+.feedback-form button {
+  padding: 12px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: #357abd;
+}
+
