@@ -2,6 +2,7 @@
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
+document.addEventListener("DOMContentLoaded", () => {
 // 2. Масив фоток
 const images = [
   {
@@ -91,4 +92,5 @@ const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
   captionPosition: "bottom",
   captionDelay: 250,
+});
 });
