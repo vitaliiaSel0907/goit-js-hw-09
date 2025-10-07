@@ -6,13 +6,14 @@
   width: 100%;
   max-width: 400px;
   display: flex;
-  flex-direction: column; /* вертикально */
+  flex-direction: column; 
   gap: 20px;
+  justify-content: center;  
 }
 
 .feedback-form label {
   display: flex;
-  flex-direction: column; /* підпис зверху, поле знизу */
+  flex-direction: column; 
   font-weight: 500;
   color: #333333;
   font-size: 14px;
@@ -49,3 +50,10 @@
   background-color: #357abd;
 }
 
+body {
+  margin: 0;
+  height: 100vh;                 /* робимо висоту як екран */
+  display: flex;                 /* вмикаємо flex-контейнер */
+  justify-content: center;       /* центрує форму по горизонталі */
+  align-items: center;           /* центрує форму по вертикалі */
+}

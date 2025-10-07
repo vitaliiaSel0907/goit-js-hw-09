@@ -23,7 +23,7 @@ if (savedData) {
 form.addEventListener("input", (event) => {
   const { name, value } = event.target;
   if (name === "email" || name === "message") {
-    formData[name] = value.trim(); // обрізаємо пробіли з країв
+    formData[name] = value.trim(); 
     localStorage.setItem(STORAGE_KEY, JSON.stringify(formData));
   }
 });

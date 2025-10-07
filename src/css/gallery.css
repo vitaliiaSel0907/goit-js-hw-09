@@ -1,14 +1,13 @@
-/* Контейнер галереї */
-.gallery {
+  .gallery {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
-  gap: 20px; /* відстань між фото */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-/* Кожен елемент галереї */
+
 .gallery li {
   border-radius: 12px;
   overflow: hidden;
@@ -16,7 +15,7 @@
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Фото всередині li */
+
 .gallery li img {
   display: block;
   width: 100%;
@@ -25,7 +24,7 @@
   transition: transform 0.3s;
 }
 
-/* Ефект при наведенні */
+
 .gallery li:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
